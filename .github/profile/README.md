@@ -69,6 +69,7 @@ CCEP (Red Team Leaders) · Hands-On Penetration Testing with Metasploit
 
 ## Links
 
+[![Portfolio](https://img.shields.io/badge/Portfolio-abinav3ac.github.io-b91c1c?style=flat-square&logo=github)](https://abinav3ac.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-Abinav3ac-b91c1c?style=flat-square&logo=github)](https://github.com/Abinav3ac)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rithish06abinav-b91c1c?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rithish06abinav/)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Alph4rc-b91c1c?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Alph4rc)
