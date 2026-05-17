@@ -76,15 +76,6 @@ Certified Cybersecurity Educator Professional (CCEP) · Hands-On Penetration Tes
 
 ---
 
-## Education
-
-- **Mahendra Engineering College**  
-  BE — Cyber Security *(2022 – Present · Namakkal)* — **7.56 CGPA**
-- **Vidyaa Vikas Matric Higher Secondary School**  
-  HSC — Biology *(2021 – 2022 · Tiruchengode)* — **67.5% Score**
-
----
-
 ## Links
 
 [![GitHub](https://img.shields.io/badge/GitHub-Abinav3ac-b91c1c?style=flat-square&logo=github)](https://github.com/Abinav3ac)

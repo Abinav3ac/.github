@@ -46,15 +46,6 @@ Project Hellhound is an independent research and development initiative focused 
 - **SOC** (Threat Intelligence, Automated OSINT & Log Analysis)
 
 > We build What We Think
-
----
-
-## Credentials
-
-**Certifications:**  
-Network Defense (EC-Council) · Digital Forensic (EC-Council) · Cisco Ethical Hacking  
-Certified Cybersecurity Educator Professional (CCEP) · Hands-On Penetration Testing with Metasploit (Infosys Springboard)
-
 ---
 
 **Focus areas:** Web Pentesting · Offensive Automation · Security Tool Development · Wireless & Hardware Security · AI / LLM Security Testing
