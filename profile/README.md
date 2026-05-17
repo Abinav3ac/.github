@@ -1,6 +1,6 @@
-﻿# Rithish Abinav AC â€” [`@Abinav3ac`](https://github.com/Abinav3ac)
+﻿# Rithish Abinav AC [`@Abinav3ac`](https://github.com/Abinav3ac)
 
-> Offensive Security Engineer Â· Security Tool Developer Â· Contributor to [Project Hellhound](https://github.com/project-hellhound-org)
+> Offensive Security Engineer· Security Tool Developer · Contributor to [Project Hellhound](https://github.com/project-hellhound-org)
 ---
 
 ## Who I Am
@@ -9,7 +9,7 @@ I'm an **Offensive Security Engineer**, **autonomous security tool builder**, an
 
 I research how modern web applications break, build adaptive offensive security tools, and engineer autonomous agents for real-world vulnerability discovery. My work focuses on offensive security automation, attack-surface analysis, intelligent vulnerability detection, and AI-driven pentesting workflows.
 
-Currently interning at **CyArt** as a **VAPT Intern**, where I build Python-based autonomous agent layers designed for deep reconnaissance, payload mutation, and behavioral exploitation validation within **CyTrack** â€” a multi-agent web pentesting platform designed for scalable and adaptive offensive security operations against real targets.
+Currently interning at **CyArt** as a **VAPT Intern**, where I build Python-based autonomous agent layers designed for deep reconnaissance, payload mutation, and behavioral exploitation validation within **CyTrack** a multi-agent web pentesting platform designed for scalable and adaptive offensive security operations against real targets.
 
 I am particularly interested in autonomous offensive systems that move beyond traditional static scanning approaches and simulate realistic attacker behavior in complex production environments.
 
@@ -27,9 +27,9 @@ I am particularly interested in autonomous offensive systems that move beyond tr
 
 ### Contributions
 
-- [**Surface-Auditor**](https://github.com/project-hellhound-org/Surface-Auditor) â€” Intelligent reconnaissance and fingerprinting engine that identifies frameworks, WAFs, servers, hidden endpoints, sensitive files, and exposed infrastructure to build a unified attack-surface profile. *(Active)*
-- [**WAF-Buster**](https://github.com/project-hellhound-org/WAF-Buster) â€” High-performance Web Application Firewall evasion and payload bypass testing framework. *(Active)*
-- [**Transport-Auditor**](https://github.com/project-hellhound-org/Transport-Auditor) â€” Advanced security auditing engine analyzing SSL/TLS, HTTPS enforcement, session protections, backend technologies, and infrastructure misconfigurations. *(In Development)*
+- [**Surface-Auditor**](https://github.com/project-hellhound-org/Surface-Auditor)  Intelligent reconnaissance and fingerprinting engine that identifies frameworks, WAFs, servers, hidden endpoints, sensitive files, and exposed infrastructure to build a unified attack-surface profile. *(Active)*
+- [**WAF-Buster**](https://github.com/project-hellhound-org/WAF-Buster)  High-performance Web Application Firewall evasion and payload bypass testing framework. *(Active)*
+- [**Transport-Auditor**](https://github.com/project-hellhound-org/Transport-Auditor)  Advanced security auditing engine analyzing SSL/TLS, HTTPS enforcement, session protections, backend technologies, and infrastructure misconfigurations. *(In Development)*
 
 ---
 
@@ -41,29 +41,29 @@ Project-Hellhound is an independent research and development initiative focused 
 - **Red Teaming** (Autonomous Reconnaissance & Attack-Chain Correlation)
 - **SOC** (Threat Intelligence, Automated OSINT & Log Analysis)
 
-> Best security conversations usually start with â€œI found something interesting.
+> Best security conversations usually start with "I found something interesting.
 
 ---
 
 ## Credentials
 
-**Certifications:** Network Defense (EC-Council) Â· Digital Forensic (EC-Council) Â· Cisco Ethical Hacking  
-CCEP (Red Team Leaders) Â· Hands-On Penetration Testing with Metasploit
+**Certifications:** Network Defense (EC-Council) · Digital Forensic (EC-Council) · Cisco Ethical Hacking  
+CCEP (Red Team Leaders) · Hands-On Penetration Testing with Metasploit
 
 **Internships (4):**
-- CyArt â€” VAPT Intern (CyTrack Platform) *(Dec 2025 â€“ Present)*
+- CyArt  VAPT Intern (CyTrack Platform) *(Dec 2025  Present)*
   - Developing autonomous Python-based agent layers within CyTrack for scalable and adaptive offensive security operations.
-- Cyber Secured India â€” Hardware Hacking Intern *(Sep â€“ Nov 2025)*
+- Cyber Secured India Hardware Hacking Intern *(Sep  Nov 2025)*
   - LoRa-based wireless communication using ESP32, long-range radio signal transmission, and IoT device attack surfaces.
-  - *â€œBecause once devices start talking over radio frequencies, the attack surface politely leaves the building and expands into the atmosphere.â€*
-- Cyber Secured India â€” Cybersecurity & Digital Forensic Intern *(Apr â€“ Jun 2025)*
+  - Because once devices start talking over radio frequencies, the attack surface politely leaves the building and expands into the atmosphere.
+- Cyber Secured India Cybersecurity & Digital Forensic Intern *(Apr Jun 2025)*
   - PortSwigger Web Security Academy labs (SQLi, Broken Auth, 2FA bypass, and insecure sessions).
-- Pondicherry Cyber Crime Department â€” Cybersecurity Intern *(Jan 2025)*
+- Pondicherry Cyber Crime Department Cybersecurity Intern *(Jan 2025)*
   - Cybercrime investigation procedures, digital evidence handling, incident tracing, and law enforcement protocols.
 
 ---
 
-**Focus areas:** Web Pentesting Â· Offensive Automation Â· Security Tool Development Â· Wireless & Hardware Security Â· AI / LLM Security Testing
+**Focus areas:** Web Pentesting · Offensive Automation · Security Tool Development · Wireless & Hardware Security · AI / LLM Security Testing
 
 ---
 
