@@ -1,6 +1,6 @@
-# Rithish Abinav AC — [`@Abinav3ac`](https://github.com/Abinav3ac)
+﻿# Rithish Abinav AC â€” [`@Abinav3ac`](https://github.com/Abinav3ac)
 
-> Offensive Security Engineer · Security Tool Developer · Contributor to [Project Hellhound](https://github.com/project-hellhound-org)
+> Offensive Security Engineer Â· Security Tool Developer Â· Contributor to [Project Hellhound](https://github.com/project-hellhound-org)
 ---
 
 ## Who I Am
@@ -9,7 +9,7 @@ I'm an **Offensive Security Engineer**, **autonomous security tool builder**, an
 
 I research how modern web applications break, build adaptive offensive security tools, and engineer autonomous agents for real-world vulnerability discovery. My work focuses on offensive security automation, attack-surface analysis, intelligent vulnerability detection, and AI-driven pentesting workflows.
 
-Currently interning at **CyArt** as a **VAPT Intern**, where I build Python-based autonomous agent layers designed for deep reconnaissance, payload mutation, and behavioral exploitation validation within **CyTrack** — a multi-agent web pentesting platform designed for scalable and adaptive offensive security operations against real targets.
+Currently interning at **CyArt** as a **VAPT Intern**, where I build Python-based autonomous agent layers designed for deep reconnaissance, payload mutation, and behavioral exploitation validation within **CyTrack** â€” a multi-agent web pentesting platform designed for scalable and adaptive offensive security operations against real targets.
 
 I am particularly interested in autonomous offensive systems that move beyond traditional static scanning approaches and simulate realistic attacker behavior in complex production environments.
 
@@ -27,9 +27,9 @@ I am particularly interested in autonomous offensive systems that move beyond tr
 
 ### Contributions
 
-- [**Surface-Auditor**](https://github.com/project-hellhound-org/Surface-Auditor) — Intelligent reconnaissance and fingerprinting engine that identifies frameworks, WAFs, servers, hidden endpoints, sensitive files, and exposed infrastructure to build a unified attack-surface profile. *(Active)*
-- [**WAF-Buster**](https://github.com/project-hellhound-org/WAF-Buster) — High-performance Web Application Firewall evasion and payload bypass testing framework. *(Active)*
-- [**Transport-Auditor**](https://github.com/project-hellhound-org/Transport-Auditor) — Advanced security auditing engine analyzing SSL/TLS, HTTPS enforcement, session protections, backend technologies, and infrastructure misconfigurations. *(In Development)*
+- [**Surface-Auditor**](https://github.com/project-hellhound-org/Surface-Auditor) â€” Intelligent reconnaissance and fingerprinting engine that identifies frameworks, WAFs, servers, hidden endpoints, sensitive files, and exposed infrastructure to build a unified attack-surface profile. *(Active)*
+- [**WAF-Buster**](https://github.com/project-hellhound-org/WAF-Buster) â€” High-performance Web Application Firewall evasion and payload bypass testing framework. *(Active)*
+- [**Transport-Auditor**](https://github.com/project-hellhound-org/Transport-Auditor) â€” Advanced security auditing engine analyzing SSL/TLS, HTTPS enforcement, session protections, backend technologies, and infrastructure misconfigurations. *(In Development)*
 
 ---
 
@@ -47,31 +47,31 @@ Project-Hellhound is an independent research and development initiative focused 
 
 ## Credentials
 
-**Certifications:** Network Defense (EC-Council) · Digital Forensic (EC-Council) · Cisco Ethical Hacking  
-CCEP (Red Team Leaders) · Hands-On Penetration Testing with Metasploit
+**Certifications:** Network Defense (EC-Council) Â· Digital Forensic (EC-Council) Â· Cisco Ethical Hacking  
+CCEP (Red Team Leaders) Â· Hands-On Penetration Testing with Metasploit
 
 **Internships (4):**
-- CyArt — VAPT Intern (CyTrack Platform) *(Dec 2025 – Present)*
+- CyArt â€” VAPT Intern (CyTrack Platform) *(Dec 2025 â€“ Present)*
   - Developing autonomous Python-based agent layers within CyTrack for scalable and adaptive offensive security operations.
-- Cyber Secured India — Hardware Hacking Intern *(Sep – Nov 2025)*
+- Cyber Secured India â€” Hardware Hacking Intern *(Sep â€“ Nov 2025)*
   - LoRa-based wireless communication using ESP32, long-range radio signal transmission, and IoT device attack surfaces.
-  - *“Because once devices start talking over radio frequencies, the attack surface politely leaves the building and expands into the atmosphere.”*
-- Cyber Secured India — Cybersecurity & Digital Forensic Intern *(Apr – Jun 2025)*
+  - *â€œBecause once devices start talking over radio frequencies, the attack surface politely leaves the building and expands into the atmosphere.â€*
+- Cyber Secured India â€” Cybersecurity & Digital Forensic Intern *(Apr â€“ Jun 2025)*
   - PortSwigger Web Security Academy labs (SQLi, Broken Auth, 2FA bypass, and insecure sessions).
-- Pondicherry Cyber Crime Department — Cybersecurity Intern *(Jan 2025)*
+- Pondicherry Cyber Crime Department â€” Cybersecurity Intern *(Jan 2025)*
   - Cybercrime investigation procedures, digital evidence handling, incident tracing, and law enforcement protocols.
 
 ---
 
-**Focus areas:** Web Pentesting · Offensive Automation · Security Tool Development · Wireless & Hardware Security · AI / LLM Security Testing
+**Focus areas:** Web Pentesting Â· Offensive Automation Â· Security Tool Development Â· Wireless & Hardware Security Â· AI / LLM Security Testing
 
 ---
 
 ## Links
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-abinav3ac.github.io-b91c1c?style=flat-square&logo=github)](https://abinav3ac.github.io)
 [![GitHub](https://img.shields.io/badge/GitHub-Abinav3ac-b91c1c?style=flat-square&logo=github)](https://github.com/Abinav3ac)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rithish06abinav-b91c1c?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rithish06abinav/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Abinav_Portfolio-b91c1c?style=flat-square&logo=googlechrome&logoColor=white)](https://github.com/Abinav3ac/.github/blob/main/Abinav_Portfolio.html)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Alph4rc-b91c1c?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Alph4rc)
 [![Project Hellhound](https://img.shields.io/badge/Org-Project--Hellhound-b91c1c?style=flat-square&logo=github)](https://github.com/project-hellhound-org)
 
