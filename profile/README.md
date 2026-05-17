@@ -71,7 +71,7 @@ CCEP (Red Team Leaders) Â· Hands-On Penetration Testing with Metasploit
 
 [![GitHub](https://img.shields.io/badge/GitHub-Abinav3ac-b91c1c?style=flat-square&logo=github)](https://github.com/Abinav3ac)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rithish06abinav-b91c1c?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rithish06abinav/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Abinav_Portfolio-b91c1c?style=flat-square&logo=googlechrome&logoColor=white)](https://github.com/Abinav3ac/.github/blob/main/Abinav_Portfolio.html)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Abinav_Portfolio-b91c1c?style=flat-square&logo=googlechrome&logoColor=white)](https://abinav3ac.github.io/.github/Abinav_Portfolio.html)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Alph4rc-b91c1c?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Alph4rc)
 [![Project Hellhound](https://img.shields.io/badge/Org-Project--Hellhound-b91c1c?style=flat-square&logo=github)](https://github.com/project-hellhound-org)
 
