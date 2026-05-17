@@ -45,7 +45,7 @@ Project Hellhound is an independent research and development initiative focused 
 - **Red Teaming** (Autonomous Reconnaissance & Attack-Chain Correlation)
 - **SOC** (Threat Intelligence, Automated OSINT & Log Analysis)
 
-> We build What We Think
+> We build What We Think 
 
 ---
 
@@ -54,6 +54,21 @@ Project Hellhound is an independent research and development initiative focused 
 **Certifications:**  
 Network Defense (EC-Council) · Digital Forensic (EC-Council) · Cisco Ethical Hacking  
 Certified Cybersecurity Educator Professional (CCEP) · Hands-On Penetration Testing with Metasploit (Infosys Springboard)
+
+**Internships (4):**  
+- **CyArt** — VAPT Intern (CyTrack Platform) *(Dec 2025 – Present)*
+  - Developing autonomous Python-based agent layers within CyTrack, a multi-agent web pentesting platform designed for scalable and adaptive offensive security operations.
+  - Engineered modules to identify and analyze specific classes of web vulnerabilities through automated reconnaissance, contextual analysis, and intelligent testing workflows.
+- **Cyber Secured India** — Hardware Hacking Intern *(Sep – Nov 2025)*
+  - Developed practical knowledge of LoRa-based wireless communication using ESP32, long-range radio signal transmission, and IoT device attack surfaces.
+  - Studied wireless security, protocol-level weaknesses, and hardware-oriented attack methodologies relevant to IoT security research.
+  - *“Because once devices start talking over radio frequencies, the attack surface politely leaves the building and expands into the atmosphere.”*
+- **Cyber Secured India** — Cybersecurity & Digital Forensic Intern *(Apr – Jun 2025)*
+  - Completed multiple labs from the PortSwigger Web Security Academy, gaining hands-on experience in identifying and exploiting SQL Injection (SQLi), Broken Authentication, 2FA bypass mechanisms, and insecure session workflows.
+  - Proficient with offensive security tools: Nmap, Burp Suite, Wireshark, and Metasploit Framework. Gained experience in mobile app pentesting through DIVA.
+- **Pondicherry Cyber Crime Department** — Cybersecurity Intern *(Jan 2025)*
+  - Gained hands-on exposure to cybercrime investigation procedures, digital evidence handling, incident tracing, and law enforcement protocols.
+  - Participated in tracking and recovering stolen mobile devices. Built a prototype Bluetooth De-Authenticator using ESP32 for controlled security research.
 
 ---
 
@@ -75,7 +90,7 @@ Certified Cybersecurity Educator Professional (CCEP) · Hands-On Penetration Tes
 [![GitHub](https://img.shields.io/badge/GitHub-Abinav3ac-b91c1c?style=flat-square&logo=github)](https://github.com/Abinav3ac)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rithish06abinav-b91c1c?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rithish06abinav/)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Alph4rc-b91c1c?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Alph4rc)
-[![Discord](https://img.shields.io/badge/Discord-alph4__rc-b91c1c?style=flat-square&logo=discord&logoColor=white)](https://discord)
+[![Discord](https://img.shields.io/badge/Discord-alph4__rc-b91c1c?style=flat-square&logo=discord&logoColor=white)](https://discord.com)
 [![Email](https://img.shields.io/badge/Email-rithish81abinav@gmail.com-b91c1c?style=flat-square&logo=gmail&logoColor=white)](mailto:rithish81abinav@gmail.com)
 [![Project Hellhound](https://img.shields.io/badge/Org-Project--Hellhound-b91c1c?style=flat-square&logo=github)](https://github.com/project-hellhound-org)
 
