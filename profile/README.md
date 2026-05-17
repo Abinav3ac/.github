@@ -41,7 +41,7 @@ Project-Hellhound is an independent research and development initiative focused 
 - **Red Teaming** (Autonomous Reconnaissance & Attack-Chain Correlation)
 - **SOC** (Threat Intelligence, Automated OSINT & Log Analysis)
 
-> We build What We Think 
+> Best security conversations usually start with “I found something interesting.
 
 ---
 
