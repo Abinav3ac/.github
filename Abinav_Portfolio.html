@@ -93,13 +93,13 @@
       -moz-osx-font-smoothing: grayscale;
     }
 
-    /* ===== PREMIUM FLOW FIELD BACKGROUND - HIGHLY VISIBLE ===== */
-    #flow-canvas {
+    /* ===== MATRIX DIGITAL RAIN BACKGROUND ===== */
+    #matrix-canvas {
       position: fixed;
       top: 0; left: 0;
       width: 100%; height: 100%;
       z-index: -2;
-      opacity: 0.92;
+      opacity: 1;
     }
     
     /* ===== AMBIENT GRADIENT LAYERS ===== */
@@ -108,9 +108,9 @@
       inset: 0;
       z-index: -1;
       background: 
-        radial-gradient(1200px 600px at 10% -10%, rgba(124, 58, 237, 0.18) 0%, transparent 60%),
-        radial-gradient(1000px 500px at 90% 10%, rgba(99, 102, 241, 0.14) 0%, transparent 60%),
-        radial-gradient(800px 400px at 50% 100%, rgba(139, 92, 246, 0.12) 0%, transparent 70%);
+        radial-gradient(1200px 600px at 10% -10%, rgba(124, 58, 237, 0.10) 0%, transparent 60%),
+        radial-gradient(1000px 500px at 90% 10%, rgba(99, 102, 241, 0.08) 0%, transparent 60%),
+        radial-gradient(800px 400px at 50% 100%, rgba(139, 92, 246, 0.07) 0%, transparent 70%);
       pointer-events: none;
     }
     
@@ -119,11 +119,11 @@
       inset: 0;
       z-index: -1;
       background-image: 
-        linear-gradient(rgba(167, 139, 250, 0.04) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(167, 139, 250, 0.04) 1px, transparent 1px);
+        linear-gradient(rgba(167, 139, 250, 0.02) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(167, 139, 250, 0.02) 1px, transparent 1px);
       background-size: 60px 60px;
       pointer-events: none;
-      opacity: 0.6;
+      opacity: 0.5;
     }
 
     /* ===== TYPOGRAPHY - CRYSTAL CLEAR ===== */
@@ -874,8 +874,8 @@
   </style>
 </head>
 <body>
-  <!-- Premium Flow Field Background -->
-  <canvas id="flow-canvas"></canvas>
+  <!-- Matrix Digital Rain Background -->
+  <canvas id="matrix-canvas"></canvas>
   <div class="bg-ambient"></div>
   <div class="bg-grid"></div>
 
@@ -1216,211 +1216,157 @@
   </footer>
 
   <script>
-    // ===== PREMIUM FLOW FIELD BACKGROUND - HIGHLY VISIBLE & DYNAMIC =====
-    const canvas = document.getElementById('flow-canvas');
-    const ctx = canvas.getContext('2d');
-    
-    let width, height;
-    let particles = [];
-    let mouse = { x: null, y: null, radius: 220 };
-    
-    // Enhanced configuration for visible, vibrant animation
-    const config = {
-      particleCount: 95,
-      particleSize: 1.8,
-      particleSpeed: 0.45,
-      connectionDistance: 165,
-      mouseInfluence: 0.12,
-      colorBase: 'rgba(167, 139, 250, ',
-      colors: [
-        { r: 167, g: 139, b: 250, brightness: 1.0 },   // accent bright
-        { r: 124, g: 58, b: 237, brightness: 0.9 },     // accent deep
-        { r: 99, g: 102, b: 241, brightness: 0.85 },    // secondary
-        { r: 139, g: 92, b: 246, brightness: 0.92 }     // tertiary
-      ]
-    };
+    // ===== MATRIX DIGITAL RAIN BACKGROUND =====
+    (function() {
+      const canvas = document.getElementById('matrix-canvas');
+      const ctx = canvas.getContext('2d');
 
-    // Resize handling
-    function resize() {
-      width = canvas.width = window.innerWidth;
-      height = canvas.height = window.innerHeight;
-      initParticles();
-    }
-    window.addEventListener('resize', resize);
+      // Character set: katakana + latin + digits + symbols
+      const CHARS = 'アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン' +
+                    'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789' +
+                    '{}[]<>/\\|?!@#$%^&*()+=~;:';
 
-    // Particle class with enhanced visibility
-    class Particle {
-      constructor() {
-        this.reset();
+      const FONT_SIZE  = 14;      // px per cell
+      const SPEED_BASE = 0.025;   // base fall speed (cells/frame)
+      const MOUSE_VOID = 120;     // px radius of mouse void
+      const TRAIL_LEN  = 24;      // visible tail length
+
+      const PALETTE = {
+        head : '#f0eaff',
+        bg   : 'rgba(3,1,4,0.18)',
+      };
+
+      let W, H, cols;
+      let drops, speeds, chars;
+      let mouse = { x: -9999, y: -9999 };
+      let rawMX = -9999, rawMY = -9999;
+
+      function resize() {
+        W = canvas.width  = window.innerWidth;
+        H = canvas.height = window.innerHeight;
+        cols = Math.floor(W / FONT_SIZE);
+        init();
       }
-      
-      reset() {
-        this.x = Math.random() * width;
-        this.y = Math.random() * height;
-        this.vx = (Math.random() - 0.5) * config.particleSpeed;
-        this.vy = (Math.random() - 0.5) * config.particleSpeed;
-        this.size = config.particleSize + Math.random() * 0.9;
-        this.color = config.colors[Math.floor(Math.random() * config.colors.length)];
-        this.life = Math.random() * 100;
-        this.pulse = Math.random() * Math.PI * 2;
-      }
-      
-      update() {
-        // Mouse interaction - stronger repulsion
-        if (mouse.x !== null) {
-          const dx = mouse.x - this.x;
-          const dy = mouse.y - this.y;
-          const distance = Math.sqrt(dx * dx + dy * dy);
-          
-          if (distance < mouse.radius) {
-            const force = (mouse.radius - distance) / mouse.radius;
-            const angle = Math.atan2(dy, dx);
-            this.vx -= Math.cos(angle) * force * config.mouseInfluence * 1.8;
-            this.vy -= Math.sin(angle) * force * config.mouseInfluence * 1.8;
-          }
+
+      function init() {
+        drops = new Float32Array(cols);
+        speeds = new Float32Array(cols);
+        chars  = new Uint16Array(cols);
+        for (let c = 0; c < cols; c++) {
+          drops[c]  = -(Math.random() * (H / FONT_SIZE) * 1.5);
+          speeds[c] = SPEED_BASE + Math.random() * 0.04;
+          chars[c]  = Math.floor(Math.random() * CHARS.length);
         }
-        
-        // Enhanced organic movement with pulse
-        this.pulse += 0.02;
-        const pulseFactor = 1 + Math.sin(this.pulse) * 0.15;
-        
-        this.x += this.vx * pulseFactor + Math.sin(this.life * 0.04) * 0.12;
-        this.y += this.vy * pulseFactor + Math.cos(this.life * 0.035) * 0.12;
-        this.life++;
-        
-        // Boundary wrap with smooth transition
-        if (this.x < -30) this.x = width + 30;
-        if (this.x > width + 30) this.x = -30;
-        if (this.y < -30) this.y = height + 30;
-        if (this.y > height + 30) this.y = -30;
-        
-        // Gentle damping
-        this.vx *= 0.997;
-        this.vy *= 0.997;
       }
-      
-      draw() {
-        // Pulsing brightness for visibility
-        const pulse = 0.7 + Math.sin(this.life * 0.06 + this.pulse) * 0.3;
-        const alpha = 0.65 * pulse * this.color.brightness;
-        
-        ctx.beginPath();
-        ctx.arc(this.x, this.y, this.size * pulse, 0, Math.PI * 2);
-        
-        // Gradient glow for each particle
-        const gradient = ctx.createRadialGradient(
-          this.x, this.y, 0,
-          this.x, this.y, this.size * 3
-        );
-        gradient.addColorStop(0, `${config.colorBase}${alpha})`);
-        gradient.addColorStop(0.4, `${config.colorBase}${alpha * 0.4})`);
-        gradient.addColorStop(1, 'transparent');
-        
-        ctx.fillStyle = gradient;
-        ctx.fill();
-      }
-    }
 
-    function initParticles() {
-      particles = [];
-      for (let i = 0; i < config.particleCount; i++) {
-        particles.push(new Particle());
-      }
-    }
+      function drawFrame() {
+        // Smooth mouse lerp
+        mouse.x += (rawMX - mouse.x) * 0.12;
+        mouse.y += (rawMY - mouse.y) * 0.12;
 
-    function drawConnections() {
-      for (let i = 0; i < particles.length; i++) {
-        for (let j = i + 1; j < particles.length; j++) {
-          const dx = particles[i].x - particles[j].x;
-          const dy = particles[i].y - particles[j].y;
-          const distance = Math.sqrt(dx * dx + dy * dy);
-          
-          if (distance < config.connectionDistance) {
-            const alpha = (1 - distance / config.connectionDistance) * 0.22;
-            const brightness = (particles[i].color.brightness + particles[j].color.brightness) / 2;
-            
+        // Fade previous frame for trail effect
+        ctx.fillStyle = PALETTE.bg;
+        ctx.fillRect(0, 0, W, H);
+
+        ctx.font      = `600 ${FONT_SIZE}px 'Courier New', monospace`;
+        ctx.textAlign = 'center';
+
+        for (let c = 0; c < cols; c++) {
+          const x       = c * FONT_SIZE + FONT_SIZE / 2;
+          const headRow = Math.floor(drops[c]);
+          const headY   = headRow * FONT_SIZE;
+
+          // Mouse void — columns near cursor skip ahead
+          const vdx = x - mouse.x;
+          if (Math.abs(vdx) < MOUSE_VOID) {
+            const vdy  = headY - mouse.y;
+            const dist = Math.sqrt(vdx * vdx + vdy * vdy);
+            if (dist < MOUSE_VOID) {
+              drops[c] += speeds[c] * 3;
+              continue;
+            }
+          }
+
+          // Draw trail characters (oldest → newest)
+          for (let t = TRAIL_LEN; t >= 1; t--) {
+            const row = headRow - t;
+            if (row < 0 || row * FONT_SIZE > H) continue;
+            const p = t / TRAIL_LEN; // 1=oldest, 0=newest
+            let color;
+            if (p > 0.75) {
+              const a = (1 - p) * 0.7 + 0.04;
+              color = `rgba(76,29,149,${a.toFixed(2)})`;
+            } else if (p > 0.42) {
+              const a = (1 - p) * 0.88 + 0.12;
+              color = `rgba(124,58,237,${a.toFixed(2)})`;
+            } else {
+              const a = 0.50 + (1 - p) * 0.38;
+              color = `rgba(167,139,250,${a.toFixed(2)})`;
+            }
+            ctx.fillStyle = color;
+            ctx.fillText(CHARS[(chars[c] + row + t) % CHARS.length], x, row * FONT_SIZE);
+          }
+
+          // Draw glowing head character
+          if (headRow >= 0 && headY <= H) {
+            // Soft glow halo
+            const grd = ctx.createRadialGradient(x, headY, 0, x, headY, FONT_SIZE * 2.4);
+            grd.addColorStop(0, 'rgba(220,210,255,0.20)');
+            grd.addColorStop(1, 'transparent');
+            ctx.fillStyle = grd;
             ctx.beginPath();
-            ctx.moveTo(particles[i].x, particles[i].y);
-            ctx.lineTo(particles[j].x, particles[j].y);
-            
-            // Gradient line for premium look
-            const gradient = ctx.createLinearGradient(
-              particles[i].x, particles[i].y,
-              particles[j].x, particles[j].y
-            );
-            gradient.addColorStop(0, `${config.colorBase}${alpha * brightness})`);
-            gradient.addColorStop(1, `${config.colorBase}${alpha * brightness * 0.7})`);
-            
-            ctx.strokeStyle = gradient;
-            ctx.lineWidth = 0.6;
-            ctx.stroke();
+            ctx.arc(x, headY - FONT_SIZE * 0.3, FONT_SIZE * 2.4, 0, Math.PI * 2);
+            ctx.fill();
+
+            // Head char — bright, slightly glowing
+            ctx.fillStyle   = PALETTE.head;
+            ctx.shadowColor = '#c4b5fd';
+            ctx.shadowBlur  = 9;
+            ctx.fillText(CHARS[chars[c]], x, headY);
+            ctx.shadowBlur  = 0;
+
+            // Randomly mutate head char for glitch feel
+            if (Math.random() < 0.08)
+              chars[c] = Math.floor(Math.random() * CHARS.length);
+          }
+
+          // Advance drop
+          drops[c] += speeds[c];
+
+          // Reset when column scrolls off screen
+          if (headY > H + FONT_SIZE * TRAIL_LEN) {
+            drops[c]  = -(Math.random() * (H / FONT_SIZE) * 0.5 + TRAIL_LEN);
+            speeds[c] = SPEED_BASE + Math.random() * 0.04;
+            chars[c]  = Math.floor(Math.random() * CHARS.length);
           }
         }
+
+        // Cursor radial illumination
+        if (rawMX > 0 && rawMX < W) {
+          const grd = ctx.createRadialGradient(mouse.x, mouse.y, 0, mouse.x, mouse.y, MOUSE_VOID * 1.5);
+          grd.addColorStop(0,   'rgba(167,139,250,0.08)');
+          grd.addColorStop(0.5, 'rgba(124,58,237,0.03)');
+          grd.addColorStop(1,   'transparent');
+          ctx.fillStyle = grd;
+          ctx.beginPath();
+          ctx.arc(mouse.x, mouse.y, MOUSE_VOID * 1.5, 0, Math.PI * 2);
+          ctx.fill();
+        }
+
+        requestAnimationFrame(drawFrame);
       }
-    }
 
-    function animate() {
-      // Subtle clear with fade for trail effect
-      ctx.fillStyle = 'rgba(3, 1, 4, 0.08)';
-      ctx.fillRect(0, 0, width, height);
-      
-      particles.forEach(p => {
-        p.update();
-        p.draw();
-      });
-      
-      drawConnections();
-      
-      // Mouse cursor glow effect on canvas
-      if (mouse.x !== null) {
-        const gradient = ctx.createRadialGradient(mouse.x, mouse.y, 0, mouse.x, mouse.y, 180);
-        gradient.addColorStop(0, 'rgba(167, 139, 250, 0.12)');
-        gradient.addColorStop(0.5, 'rgba(124, 58, 237, 0.04)');
-        gradient.addColorStop(1, 'transparent');
-        
-        ctx.beginPath();
-        ctx.arc(mouse.x, mouse.y, 180, 0, Math.PI * 2);
-        ctx.fillStyle = gradient;
-        ctx.fill();
-      }
-      
-      requestAnimationFrame(animate);
-    }
+      document.addEventListener('mousemove', e => { rawMX = e.clientX; rawMY = e.clientY; });
+      document.addEventListener('mouseleave', () => { rawMX = -9999; rawMY = -9999; });
+      document.addEventListener('touchmove', e => {
+        if (e.touches.length) { rawMX = e.touches[0].clientX; rawMY = e.touches[0].clientY; }
+      }, { passive: true });
+      document.addEventListener('touchend', () => { rawMX = -9999; rawMY = -9999; });
+      window.addEventListener('resize', resize);
+      resize();
+      requestAnimationFrame(drawFrame);
+    })();
 
-    // Mouse tracking with smoothing
-    let mouseX = null, mouseY = null;
-    document.addEventListener('mousemove', (e) => {
-      mouseX = e.clientX;
-      mouseY = e.clientY;
-      
-      // Smooth interpolation for fluid movement
-      mouse.x = mouse.x === null ? mouseX : mouse.x + (mouseX - mouse.x) * 0.50;
-      mouse.y = mouse.y === null ? mouseY : mouse.y + (mouseY - mouse.y) * 0.50;
-    });
-    
-    document.addEventListener('mouseleave', () => {
-      mouse.x = null;
-      mouse.y = null;
-    });
-
-    // Touch support for mobile
-    document.addEventListener('touchmove', (e) => {
-      if (e.touches.length > 0) {
-        mouseX = e.touches[0].clientX;
-        mouseY = e.touches[0].clientY;
-        mouse.x = mouseX;
-        mouse.y = mouseY;
-      }
-    }, { passive: true });
-    
-    document.addEventListener('touchend', () => {
-      mouse.x = null;
-      mouse.y = null;
-    });
-
-    // Initialize animation
-    resize();
-    animate();
 
     // ===== NAVBAR SCROLL EFFECT =====
     const navbar = document.getElementById('navbar');
