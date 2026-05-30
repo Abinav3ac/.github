@@ -1,80 +1,285 @@
-﻿# Rithish Abinav AC â€” [`@Abinav3ac`](https://github.com/Abinav3ac)
+# Rithish Abinav AC (@Abinav3ac)
 
-> Offensive Security Engineer Â· Security Tool Developer Â· Contributor to [Project Hellhound](https://github.com/project-hellhound-org)
+### Offensive Security Engineer • Security Tool Developer • Autonomous Pentesting Researcher
+
 ---
 
 ## Who I Am
 
-I'm an **Offensive Security Engineer**, **autonomous security tool builder**, and **AI pentesting researcher** who designs systems that break web applications contextually and at scale.
+I'm an Offensive Security Engineer focused on offensive automation, autonomous vulnerability discovery, and AI-assisted penetration testing.
 
-I research how modern web applications break, build adaptive offensive security tools, and engineer autonomous agents for real-world vulnerability discovery. My work focuses on offensive security automation, attack-surface analysis, intelligent vulnerability detection, and AI-driven pentesting workflows.
+My work revolves around designing intelligent security agents capable of performing reconnaissance, attack-surface mapping, payload mutation, exploitation validation, and contextual vulnerability analysis against modern web applications.
 
-Currently interning at **CyArt** as a **VAPT Intern**, where I build Python-based autonomous agent layers designed for deep reconnaissance, payload mutation, and behavioral exploitation validation within **CyTrack** â€” a multi-agent web pentesting platform designed for scalable and adaptive offensive security operations against real targets.
+Currently, I am working as a **VAPT Intern at CyArt**, where I contribute to the development of autonomous security agents for **CyTrack**, a multi-agent web penetration testing platform designed to simulate realistic attacker behavior and perform scalable security assessments.
 
-I am particularly interested in autonomous offensive systems that move beyond traditional static scanning approaches and simulate realistic attacker behavior in complex production environments.
+My primary interests include:
+
+* Autonomous Offensive Security Systems
+* Web Application Penetration Testing
+* Vulnerability Research
+* AI & LLM Security
+* Agent-Based Security Automation
+* Red Team Tool Development
+* Attack Surface Intelligence
 
 ---
 
 ## What I Build
 
-| Project | What it does | Status |
-|---|---|---|
-| [Agent389](https://github.com/Abinav3ac/Agent389) | Multi-phase autonomous LDAP injection warfare framework that performs intelligent reconnaissance, adaptive payload mutation, verification, and exploit-ready vulnerability handoff across web and raw LDAP surfaces. | `Active` |
-| [Cross-Forge](https://github.com/Abinav3ac/Cross-Forge) | Autonomous adaptive CSRF detection framework that simulates real cross-origin attack scenarios, performs token validation, and state-change analysis with multi-session verification. | `In Development` |
-| [SSRF Agent](https://github.com/Abinav3ac/SSRF-Agent) | Autonomous SSRF reconnaissance and validation framework detecting unsafe request handling, internal networks, cloud metadata access, and blind outbound interactions. | `In Development` |
-| [Hell-Corp](https://github.com/Abinav3ac/Hell-Corp) | Realistic enterprise attack-simulation platform designed for practicing advanced web exploitation, business-logic abuse, infrastructure pivoting, and multi-stage vulnerability chaining. | `Active` |
-| [DNS Tunneling Detection Tool](https://github.com/Abinav3ac/DNS-Tunneling-Detection-Tool) | Real-time DNS tunneling detection engine identifying covert exfiltration and C2 activity through entropy analysis, anomalous query patterns, and behavioral correlation. | `Active` |
-
-### Contributions
-
-- [**Surface-Auditor**](https://github.com/project-hellhound-org/Surface-Auditor) â€” Intelligent reconnaissance and fingerprinting engine that identifies frameworks, WAFs, servers, hidden endpoints, sensitive files, and exposed infrastructure to build a unified attack-surface profile. *(Active)*
-- [**WAF-Buster**](https://github.com/project-hellhound-org/WAF-Buster) â€” High-performance Web Application Firewall evasion and payload bypass testing framework. *(Active)*
-- [**Transport-Auditor**](https://github.com/project-hellhound-org/Transport-Auditor) â€” Advanced security auditing engine analyzing SSL/TLS, HTTPS enforcement, session protections, backend technologies, and infrastructure misconfigurations. *(In Development)*
+| Project                       | Description                                                                                                                                                                          | Status |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ |
+| **Agent389**                  | Autonomous LDAP Injection Assessment Framework performing reconnaissance, payload generation, verification, exploitation validation, and reporting across web and raw LDAP surfaces. | Active |
+| **Hell-Corp**                 | Enterprise-grade vulnerable application designed for realistic attack simulations, business logic testing, privilege escalation exercises, and vulnerability chaining practice.      | Active |
+| **Hellhound-Pentest**         | Modular penetration testing framework integrating reconnaissance, fingerprinting, vulnerability validation, and reporting workflows.                                                 | Active |
+| **Hellhound-Spider**          | Advanced crawling and attack-surface discovery engine designed for large-scale web application enumeration and endpoint discovery.                                                   | Active |
+| **CyTrack Agent Development** | Autonomous offensive security agents developed within CyArt's CyTrack platform for scalable VAPT operations.                                                                         | Active |
 
 ---
 
-## Contributor to [Project-Hellhound](https://github.com/project-hellhound-org)
+## Open Source Repositories
 
-Project-Hellhound is an independent research and development initiative focused on building **high-performance security tools** for the modern defensive and offensive landscape. We specialize in:
+### Agent389
 
-- **VAPT** (Web Application Penetration Testing & Vulnerability Research)
-- **Red Teaming** (Autonomous Reconnaissance & Attack-Chain Correlation)
-- **SOC** (Threat Intelligence, Automated OSINT & Log Analysis)
+Repository:
+https://github.com/project-hellhound-org/Agent389
 
-> We build What We Think 
+Personal Repository:
+https://github.com/Abinav3ac/Agent389
 
----
+**Capabilities**
 
-## Credentials
-
-**Certifications:** Network Defense (EC-Council) Â· Digital Forensic (EC-Council) Â· Cisco Ethical Hacking  
-CCEP (Red Team Leaders) Â· Hands-On Penetration Testing with Metasploit
-
-**Internships (4):**
-- CyArt â€” VAPT Intern (CyTrack Platform) *(Dec 2025 â€“ Present)*
-  - Developing autonomous Python-based agent layers within CyTrack for scalable and adaptive offensive security operations.
-- Cyber Secured India â€” Hardware Hacking Intern *(Sep â€“ Nov 2025)*
-  - LoRa-based wireless communication using ESP32, long-range radio signal transmission, and IoT device attack surfaces.
-  - *â€œBecause once devices start talking over radio frequencies, the attack surface politely leaves the building and expands into the atmosphere.â€*
-- Cyber Secured India â€” Cybersecurity & Digital Forensic Intern *(Apr â€“ Jun 2025)*
-  - PortSwigger Web Security Academy labs (SQLi, Broken Auth, 2FA bypass, and insecure sessions).
-- Pondicherry Cyber Crime Department â€” Cybersecurity Intern *(Jan 2025)*
-  - Cybercrime investigation procedures, digital evidence handling, incident tracing, and law enforcement protocols.
+* LDAP Reconnaissance
+* Payload Mutation Engine
+* Context-Aware Testing
+* Vulnerability Verification
+* Exploit Validation
+* Risk Classification
+* Automated Reporting
 
 ---
 
-**Focus areas:** Web Pentesting Â· Offensive Automation Â· Security Tool Development Â· Wireless & Hardware Security Â· AI / LLM Security Testing
+### Hell-Corp
+
+Repository:
+https://github.com/Abinav3ac/Hell-Corp
+
+A realistic enterprise attack-simulation platform built to emulate modern corporate environments for offensive security training and vulnerability research.
+
+**Focus Areas**
+
+* Authentication Flaws
+* Access Control Issues
+* Business Logic Vulnerabilities
+* API Security Testing
+* Multi-Stage Attack Chains
+* Infrastructure Pivoting
+
+---
+
+### Hellhound-Pentest
+
+Repository:
+https://github.com/Abinav3ac/Hellhound-Pentest
+
+Comprehensive penetration testing framework focused on automating offensive security workflows and vulnerability validation.
+
+**Modules**
+
+* Reconnaissance
+* Fingerprinting
+* Attack Surface Mapping
+* Security Validation
+* Reporting
+
+---
+
+### Hellhound-Spider
+
+Repository:
+https://github.com/Abinav3ac/Hellhound-Spider
+
+Attack-surface discovery framework designed to enumerate modern web applications efficiently and identify hidden assets.
+
+**Features**
+
+* Recursive Crawling
+* Endpoint Discovery
+* Technology Detection
+* Sensitive File Discovery
+* Asset Enumeration
+
+---
+
+## Contributions
+
+### Project Hellhound
+
+Contributor to:
+
+https://github.com/project-hellhound-org
+
+Project Hellhound is a security research initiative focused on building high-performance offensive and defensive security tools.
+
+### Areas of Contribution
+
+#### Surface-Auditor
+
+Intelligent reconnaissance and attack-surface profiling engine.
+
+Features:
+
+* Framework Detection
+* WAF Identification
+* Technology Fingerprinting
+* Endpoint Discovery
+* Infrastructure Mapping
+
+#### WAF-Buster
+
+Advanced payload validation and WAF assessment framework.
+
+Features:
+
+* Payload Testing
+* WAF Fingerprinting
+* Evasion Validation
+* Security Rule Analysis
+
+#### Transport-Auditor
+
+Transport-layer security auditing platform.
+
+Features:
+
+* SSL/TLS Analysis
+* HTTPS Enforcement Validation
+* Cookie Security Assessment
+* Security Header Analysis
+* Infrastructure Review
+
+---
+
+## Experience
+
+### CyArt — VAPT Intern
+
+**Dec 2025 – Present**
+
+Working on CyTrack's autonomous offensive security platform.
+
+Responsibilities:
+
+* Developing Python-based security agents
+* Building automated vulnerability assessment workflows
+* Implementing attack-surface analysis modules
+* Designing exploitation verification systems
+* Researching AI-driven penetration testing techniques
+
+---
+
+### Cyber Secured India — Hardware Hacking Intern
+
+**Sep 2025 – Nov 2025**
+
+Focused on:
+
+* ESP32 Security
+* LoRa Communication
+* Wireless Security Concepts
+* IoT Attack Surfaces
+* Embedded System Analysis
+
+---
+
+### Cyber Secured India — Cybersecurity & Digital Forensics Intern
+
+**Apr 2025 – Jun 2025**
+
+Hands-on experience with:
+
+* PortSwigger Labs
+* SQL Injection
+* Authentication Attacks
+* Session Management Issues
+* Digital Forensics Fundamentals
+
+---
+
+### Pondicherry Cyber Crime Department — Cybersecurity Intern
+
+**Jan 2025**
+
+Worked on:
+
+* Cybercrime Investigation Procedures
+* Digital Evidence Handling
+* Incident Analysis
+* Law Enforcement Security Processes
+
+---
+
+## Certifications
+
+* EC-Council Network Defense
+* EC-Council Digital Forensics
+* Cisco Ethical Hacking
+* CCEP (Red Team Leaders)
+* Hands-On Penetration Testing with Metasploit
+
+---
+
+## Technical Focus
+
+### Offensive Security
+
+* Web Application Penetration Testing
+* Vulnerability Research
+* Exploit Validation
+* Attack Surface Mapping
+* Security Automation
+
+### Development
+
+* Python
+* Automation Frameworks
+* Security Tool Engineering
+* Multi-Agent Architectures
+
+### Research
+
+* AI Security
+* LLM Security Testing
+* Autonomous Pentesting
+* Agentic Security Systems
+
+---
+
+## Current Areas of Research
+
+* Autonomous Pentesting Agents
+* AI-Augmented Security Operations
+* Vulnerability Discovery Automation
+* Context-Aware Exploitation
+* Agent-Based Reconnaissance Systems
+* Intelligent Payload Mutation Engines
 
 ---
 
 ## Links
-
+[![Portfolio](https://img.shields.io/badge/Portfolio-Abinav_Portfolio-b91c1c?style=flat-square&logo=googlechrome&logoColor=white)](https://abinav3ac.github.io/.github/Abinav_Portfolio.html)
 [![GitHub](https://img.shields.io/badge/GitHub-Abinav3ac-b91c1c?style=flat-square&logo=github)](https://github.com/Abinav3ac)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-rithish06abinav-b91c1c?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rithish06abinav/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Abinav_Portfolio-b91c1c?style=flat-square&logo=googlechrome&logoColor=white)](https://abinav3ac.github.io/.github/Abinav_Portfolio.html)
 [![TryHackMe](https://img.shields.io/badge/TryHackMe-Alph4rc-b91c1c?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Alph4rc)
 [![Project Hellhound](https://img.shields.io/badge/Org-Project--Hellhound-b91c1c?style=flat-square&logo=github)](https://github.com/project-hellhound-org)
 
 ---
 
-<sub>All personal repos and contributions listed here are mirrored or built collaboratively under the [Project-Hellhound](https://github.com/project-hellhound-org) org. Development is focused on scalable security automation.</sub>
+## Philosophy
+
+> The most dangerous vulnerabilities are rarely the ones scanners find.
+>
+> They're the ones hidden inside application behavior, business logic, and unexpected trust relationships.
+
+Most security conversations start with:
+
+**"I found something interesting..."**
