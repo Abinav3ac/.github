@@ -31,7 +31,6 @@ My primary interests include:
 | **Agent389**                  | Autonomous LDAP Injection Assessment Framework performing reconnaissance, payload generation, verification, exploitation validation, and reporting across web and raw LDAP surfaces. | Active |
 | **Hell-Corp**                 | Enterprise-grade vulnerable application designed for realistic attack simulations, business logic testing, privilege escalation exercises, and vulnerability chaining practice.      | Active |
 | **Hellhound-Pentest**         | Modular penetration testing framework integrating reconnaissance, fingerprinting, vulnerability validation, and reporting workflows.                                                 | Active |
-| **Hellhound-Spider**          | Advanced crawling and attack-surface discovery engine designed for large-scale web application enumeration and endpoint discovery.                                                   | Active |
 | **CyTrack Agent Development** | Autonomous offensive security agents developed within CyArt's CyTrack platform for scalable VAPT operations.                                                                         | Active |
 
 ---
