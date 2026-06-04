@@ -92,23 +92,6 @@ Comprehensive penetration testing framework focused on automating offensive secu
 
 ---
 
-### Hellhound-Spider
-
-Repository:
-https://github.com/Abinav3ac/Hellhound-Spider
-
-Attack-surface discovery framework designed to enumerate modern web applications efficiently and identify hidden assets.
-
-**Features**
-
-* Recursive Crawling
-* Endpoint Discovery
-* Technology Detection
-* Sensitive File Discovery
-* Asset Enumeration
-
----
-
 ## Contributions
 
 ### Project Hellhound
