@@ -131,7 +131,6 @@ Features:
 * Framework Detection
 * WAF Identification
 * Technology Fingerprinting
-* Endpoint Discovery
 * Infrastructure Mapping
 
 #### WAF-Buster
