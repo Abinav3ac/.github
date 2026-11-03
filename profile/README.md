@@ -14,12 +14,6 @@
 
 ---
 
-<br/>
-
-<img width="100%" src="./profile-cyber.gif" alt="Animated cyber operations workspace"/>
-
-<p>
-
 <a href="https://github.com/Abinav3ac">
 <img src="https://img.shields.io/badge/GitHub-Abinav3ac-111827?style=for-the-badge&logo=github&logoColor=00D9FF" alt="GitHub"/>
 </a>
@@ -32,6 +26,12 @@
 <a href="mailto:rithish81abinav@gmail.com">
 <img src="https://img.shields.io/badge/Email-Contact%20Me-4C1D95?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email"/>
 </a>
+
+<br/>
+
+<img width="100%" src="./profile-cyber.gif" alt="Animated cyber operations workspace"/>
+
+<p>
 
 ---
 
