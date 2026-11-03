@@ -2,13 +2,13 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,45:172554,100:7C3AED&height=190&section=header&text=RITHISH%20ABINAV%20AC&fontSize=38&fontColor=FFFFFF&fontAlignY=38&desc=OFFENSIVE%20SECURITY%20%7C%20AUTONOMOUS%20SECURITY%20TOOLS&descAlignY=60&descSize=14" alt="Rithish Abinav AC — Offensive Security"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=850&lines=Offensive+Security+Engineer;Autonomous+Security+Tool+Builder;Web+Application+%26+API+Security;AI+%2F+LLM+Security+Testing;Researching.+Building.+Validating." alt="Typing introduction"/>
-
 </p>
 
 <img src="https://komarev.com/ghpvc/?username=Abinav3ac&style=flat-square&color=6366F1&label=PROFILE+VIEWS" alt="Profile views"/>
 
 </div>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=850&lines=Offensive+Security+Engineer;Autonomous+Security+Tool+Builder;Web+Application+%26+API+Security;AI+%2F+LLM+Security+Testing;Researching.+Building.+Validating." alt="Typing introduction"/>
 
 <p>
 
