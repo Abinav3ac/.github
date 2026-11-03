@@ -4,6 +4,12 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=850&lines=Offensive+Security+Engineer;Autonomous+Security+Tool+Builder;Web+Application+%26+API+Security;AI+%2F+LLM+Security+Testing;Researching.+Building.+Validating." alt="Typing introduction"/>
 
+</p>
+
+<img src="https://komarev.com/ghpvc/?username=Abinav3ac&style=flat-square&color=6366F1&label=PROFILE+VIEWS" alt="Profile views"/>
+
+</div>
+
 <p>
 <a href="https://github.com/Abinav3ac">
 <img src="https://img.shields.io/badge/GitHub-Abinav3ac-111827?style=for-the-badge&logo=github&logoColor=00D9FF" alt="GitHub"/>
@@ -17,11 +23,7 @@
 <a href="mailto:rithish81abinav@gmail.com">
 <img src="https://img.shields.io/badge/Email-Contact%20Me-4C1D95?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email"/>
 </a>
-</p>
 
-<img src="https://komarev.com/ghpvc/?username=Abinav3ac&style=flat-square&color=6366F1&label=PROFILE+VIEWS" alt="Profile views"/>
-
-</div>
 ---
 
 <br/>
