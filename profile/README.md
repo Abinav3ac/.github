@@ -11,6 +11,15 @@
 </div>
 
 <p>
+
+---
+
+<br/>
+
+<img width="100%" src="./profile-cyber.gif" alt="Animated cyber operations workspace"/>
+
+<p>
+
 <a href="https://github.com/Abinav3ac">
 <img src="https://img.shields.io/badge/GitHub-Abinav3ac-111827?style=for-the-badge&logo=github&logoColor=00D9FF" alt="GitHub"/>
 </a>
@@ -25,12 +34,6 @@
 </a>
 
 ---
-
-<br/>
-
-<img width="100%" src="./profile-cyber.gif" alt="Animated cyber operations workspace"/>
-
-<p>
 
 ## `WHOAMI` — About Me
 
