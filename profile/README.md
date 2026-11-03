@@ -24,6 +24,12 @@
 </div>
 ---
 
+<br/>
+
+<img width="100%" src="./profile-cyber.gif" alt="Animated cyber operations workspace"/>
+
+<p>
+
 ## `WHOAMI` — About Me
 
 I'm **Rithish Abinav AC**, a B.E. Cybersecurity graduate and Offensive Security Engineer passionate about web application security, vulnerability research, and autonomous security tool development.
