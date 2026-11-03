@@ -1,284 +1,130 @@
-# Rithish Abinav AC (@Abinav3ac)
+ <div align="center">
 
-### Offensive Security Engineer • Security Tool Developer • Autonomous Pentesting Researcher
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,45:172554,100:7C3AED&height=190&section=header&text=RITHISH%20ABINAV%20AC&fontSize=38&fontColor=FFFFFF&fontAlignY=38&desc=OFFENSIVE%20SECURITY%20%7C%20AUTONOMOUS%20SECURITY%20TOOLS&descAlignY=60&descSize=14" alt="Rithish Abinav AC — Offensive Security"/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&duration=2800&pause=900&color=00D9FF&center=true&vCenter=true&width=850&lines=Offensive+Security+Engineer;Autonomous+Security+Tool+Builder;Web+Application+%26+API+Security;AI+%2F+LLM+Security+Testing;Researching.+Building.+Validating." alt="Typing introduction"/>
+
+<p>
+<a href="https://github.com/Abinav3ac">
+<img src="https://img.shields.io/badge/GitHub-Abinav3ac-111827?style=for-the-badge&logo=github&logoColor=00D9FF" alt="GitHub"/>
+</a>
+<a href="https://www.linkedin.com/in/rithish06abinav/">
+<img src="https://img.shields.io/badge/LinkedIn-Rithish%20Abinav-172554?style=for-the-badge&logo=linkedin&logoColor=60A5FA" alt="LinkedIn"/>
+</a>
+<a href="https://tryhackme.com/p/Alph4rc">
+<img src="https://img.shields.io/badge/TryHackMe-Alph4rc-312E81?style=for-the-badge&logo=tryhackme&logoColor=A78BFA" alt="TryHackMe"/>
+</a>
+<a href="mailto:rithish81abinav@gmail.com">
+<img src="https://img.shields.io/badge/Email-Contact%20Me-4C1D95?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email"/>
+</a>
+</p>
+
+<img src="https://komarev.com/ghpvc/?username=Abinav3ac&style=flat-square&color=6366F1&label=PROFILE+VIEWS" alt="Profile views"/>
+
+</div>
+---
+
+## `WHOAMI` — About Me
+
+I'm **Rithish Abinav AC**, a B.E. Cybersecurity graduate and Offensive Security Engineer passionate about web application security, vulnerability research, and autonomous security tool development.
+
+
+I also contributed to **Project Hellhound / Hellhound Pentest**, a multi-agent web penetration testing platform built around specialized agents and adaptive vulnerability discovery.
 
 ---
 
-## Who I Am
+## `PROJECTS` — Security Tools & Research
 
-I'm an Offensive Security Engineer focused on offensive automation, autonomous vulnerability discovery, and AI-assisted penetration testing.
+### Standalone Tools & Agents
 
-My work revolves around designing intelligent security agents capable of performing reconnaissance, attack-surface mapping, payload mutation, exploitation validation, and contextual vulnerability analysis against modern web applications.
+- **Agent389 — LDAP Agent** `ACTIVE`
+  Tests applications for LDAP injection vulnerabilities through automated payload testing and verification.
 
-Currently, I am working as a **VAPT Intern at CyArt**, where I contribute to the development of autonomous security agents for **CyTrack**, a multi-agent web penetration testing platform designed to simulate realistic attacker behavior and perform scalable security assessments.
+- **GateForge — SSRF Agent** `ACTIVE`
+  Detects SSRF vulnerabilities, internal network exposure, and cloud metadata risks.
 
-My primary interests include:
+- **CrossForge — CSRF Agent** `IN DEVELOPMENT`
+  Tests CSRF vulnerabilities through token validation and cross-origin request analysis.
+  
+- **Spectre — DNS Tunneling Detection** `ACTIVE`
+  Detects suspicious DNS traffic using entropy analysis and anomaly detection.
 
-* Autonomous Offensive Security Systems
-* Web Application Penetration Testing
-* Vulnerability Research
-* AI & LLM Security
-* Agent-Based Security Automation
-* Red Team Tool Development
-* Attack Surface Intelligence
+- **HellCorp — VulnLab** `ACTIVE`
+  An enterprise-style vulnerable lab for practising web exploitation and attack-chain scenarios.
+
+
+
+---
+### Project Hellhound — Contributions
+
+Contributed to the Hellhound security-tool ecosystem and its related development work.
+
+| Tool / Module | Status |
+|---|---|
+| Tech-Profile | Active |
+| Fuzz-Hunter | Active |
+| WAF Buster | Active |
+| Transport-Auditor | Active |
+| Surface-Auditor | Active |
 
 ---
 
-## What I Build
+## `TECHNICAL FOCUS` — Technical Areas
 
-| Project                       | Description                                                                                                                                                                          | Status |
-| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------ |
-| **Agent389**                  | Autonomous LDAP Injection Assessment Framework performing reconnaissance, payload generation, verification, exploitation validation, and reporting across web and raw LDAP surfaces. | Active |
-| **Hell-Corp**                 | Enterprise-grade vulnerable application designed for realistic attack simulations, business logic testing, privilege escalation exercises, and vulnerability chaining practice.      | Active |
-| **Hellhound-Pentest**         | Modular penetration testing framework integrating reconnaissance, fingerprinting, vulnerability validation, and reporting workflows.                                                 | Active |
-| **Hellhound-Spider**          | Advanced crawling and attack-surface discovery engine designed for large-scale web application enumeration and endpoint discovery.                                                   | Active |
-| **CyTrack Agent Development** | Autonomous offensive security agents developed within CyArt's CyTrack platform for scalable VAPT operations.                                                                         | Active |
+<div align="center">
 
----
+**OFFENSIVE SECURITY & WEB APPLICATION TESTING**
 
-## Open Source Repositories
+<img src="https://img.shields.io/badge/Web_Application_Security-172554?style=flat-square&logo=owasp&logoColor=00D9FF" alt="Web Application Security"/>
+<img src="https://img.shields.io/badge/SQL_Injection-312E81?style=flat-square&logoColor=A78BFA" alt="SQL Injection"/>
+<img src="https://img.shields.io/badge/Authentication_Testing-172554?style=flat-square&logoColor=00D9FF" alt="Authentication Testing"/>
+<img src="https://img.shields.io/badge/CSRF-312E81?style=flat-square&logoColor=A78BFA" alt="CSRF"/>
+<img src="https://img.shields.io/badge/SSRF-172554?style=flat-square&logoColor=00D9FF" alt="SSRF"/>
+<img src="https://img.shields.io/badge/LDAP_Injection-312E81?style=flat-square&logoColor=A78BFA" alt="LDAP Injection"/>
+<img src="https://img.shields.io/badge/API_Security-172554?style=flat-square&logoColor=00D9FF" alt="API Security"/>
 
-### Agent389
+**AUTOMATION & DEVELOPMENT**
 
-Repository:
-https://github.com/project-hellhound-org/Agent389
+<img src="https://img.shields.io/badge/Python-1E40AF?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/Autonomous_Security_Agents-312E81?style=flat-square&logoColor=A78BFA" alt="Autonomous Security Agents"/>
+<img src="https://img.shields.io/badge/Multi--Agent_Orchestration-172554?style=flat-square&logoColor=00D9FF" alt="Multi-agent orchestration"/>
+<img src="https://img.shields.io/badge/Vulnerability_Detection-312E81?style=flat-square&logoColor=A78BFA" alt="Vulnerability Detection"/>
 
-Personal Repository:
-https://github.com/Abinav3ac/Agent389
+**SECURITY TOOLS**
 
-**Capabilities**
+<img src="https://img.shields.io/badge/Burp_Suite-7C3AED?style=flat-square&logo=burpsuite&logoColor=white" alt="Burp Suite"/>
+<img src="https://img.shields.io/badge/Nmap-1D4ED8?style=flat-square&logo=nmap&logoColor=white" alt="Nmap"/>
+<img src="https://img.shields.io/badge/Wireshark-172554?style=flat-square&logo=wireshark&logoColor=00D9FF" alt="Wireshark"/>
+<img src="https://img.shields.io/badge/Metasploit-312E81?style=flat-square&logo=metasploit&logoColor=A78BFA" alt="Metasploit"/>
+<img src="https://img.shields.io/badge/PortSwigger_Academy-7C3AED?style=flat-square" alt="PortSwigger Academy"/>
 
-* LDAP Reconnaissance
-* Payload Mutation Engine
-* Context-Aware Testing
-* Vulnerability Verification
-* Exploit Validation
-* Risk Classification
-* Automated Reporting
+**AI, HARDWARE & WIRELESS SECURITY**
 
----
+<img src="https://img.shields.io/badge/AI_/_LLM_Pentesting-312E81?style=flat-square&logoColor=A78BFA" alt="AI and LLM pentesting"/>
+<img src="https://img.shields.io/badge/ESP32-1D4ED8?style=flat-square&logo=espressif&logoColor=white" alt="ESP32"/>
+<img src="https://img.shields.io/badge/LoRa_Wireless-172554?style=flat-square&logoColor=00D9FF" alt="LoRa Wireless"/>
+<img src="https://img.shields.io/badge/IoT_Security-312E81?style=flat-square&logoColor=A78BFA" alt="IoT Security"/>
+<img src="https://img.shields.io/badge/Digital_Forensics-172554?style=flat-square&logoColor=00D9FF" alt="Digital Forensics"/>
 
-### Hell-Corp
-
-Repository:
-https://github.com/Abinav3ac/Hell-Corp
-
-A realistic enterprise attack-simulation platform built to emulate modern corporate environments for offensive security training and vulnerability research.
-
-**Focus Areas**
-
-* Authentication Flaws
-* Access Control Issues
-* Business Logic Vulnerabilities
-* API Security Testing
-* Multi-Stage Attack Chains
-* Infrastructure Pivoting
+</div>
 
 ---
 
-### Hellhound-Pentest
+## `CONNECT` — Let's Connect
 
-Repository:
-https://github.com/Abinav3ac/Hellhound-Pentest
+I'm interested in offensive security research, vulnerability discovery, security-tool engineering and collaboration on responsible security projects.
 
-Comprehensive penetration testing framework focused on automating offensive security workflows and vulnerability validation.
-
-**Modules**
-
-* Reconnaissance
-* Fingerprinting
-* Attack Surface Mapping
-* Security Validation
-* Reporting
+- **Email:** [rithish81abinav@gmail.com](mailto:rithish81abinav@gmail.com)
+- **GitHub:** [github.com/Abinav3ac](https://github.com/Abinav3ac)
+- **LinkedIn:** [linkedin.com/in/rithish06abinav](https://www.linkedin.com/in/rithish06abinav/)
+- **TryHackMe:** [tryhackme.com/p/Alph4rc](https://tryhackme.com/p/Alph4rc)
 
 ---
 
-### Hellhound-Spider
+ </div>
 
-Repository:
-https://github.com/Abinav3ac/Hellhound-Spider
+### `Research the attack surface. Engineer the detection. Validate the evidence.`
 
-Attack-surface discovery framework designed to enumerate modern web applications efficiently and identify hidden assets.
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:7C3AED,50:172554,100:050816&height=110&section=footer" alt="Blue and Purple Hacker Footer"/>
 
-**Features**
-
-* Recursive Crawling
-* Endpoint Discovery
-* Technology Detection
-* Sensitive File Discovery
-* Asset Enumeration
-
----
-
-## Contributions
-
-### Project Hellhound
-
-Contributor to:
-
-https://github.com/project-hellhound-org
-
-Project Hellhound is a security research initiative focused on building high-performance offensive and defensive security tools.
-
-### Areas of Contribution
-
-#### Surface-Auditor
-
-Intelligent reconnaissance and attack-surface profiling engine.
-
-Features:
-
-* Framework Detection
-* WAF Identification
-* Technology Fingerprinting
-* Infrastructure Mapping
-
-#### WAF-Buster
-
-Advanced payload validation and WAF assessment framework.
-
-Features:
-
-* Payload Testing
-* WAF Fingerprinting
-* Evasion Validation
-* Security Rule Analysis
-
-#### Transport-Auditor
-
-Transport-layer security auditing platform.
-
-Features:
-
-* SSL/TLS Analysis
-* HTTPS Enforcement Validation
-* Cookie Security Assessment
-* Security Header Analysis
-* Infrastructure Review
-
----
-
-## Experience
-
-### CyArt — VAPT Intern
-
-**Dec 2025 – Present**
-
-Working on CyTrack's autonomous offensive security platform.
-
-Responsibilities:
-
-* Developing Python-based security agents
-* Building automated vulnerability assessment workflows
-* Implementing attack-surface analysis modules
-* Designing exploitation verification systems
-* Researching AI-driven penetration testing techniques
-
----
-
-### Cyber Secured India — Hardware Hacking Intern
-
-**Sep 2025 – Nov 2025**
-
-Focused on:
-
-* ESP32 Security
-* LoRa Communication
-* Wireless Security Concepts
-* IoT Attack Surfaces
-* Embedded System Analysis
-
----
-
-### Cyber Secured India — Cybersecurity & Digital Forensics Intern
-
-**Apr 2025 – Jun 2025**
-
-Hands-on experience with:
-
-* PortSwigger Labs
-* SQL Injection
-* Authentication Attacks
-* Session Management Issues
-* Digital Forensics Fundamentals
-
----
-
-### Pondicherry Cyber Crime Department — Cybersecurity Intern
-
-**Jan 2025**
-
-Worked on:
-
-* Cybercrime Investigation Procedures
-* Digital Evidence Handling
-* Incident Analysis
-* Law Enforcement Security Processes
-
----
-
-## Certifications
-
-* EC-Council Network Defense
-* EC-Council Digital Forensics
-* Cisco Ethical Hacking
-* CCEP (Red Team Leaders)
-* Hands-On Penetration Testing with Metasploit
-
----
-
-## Technical Focus
-
-### Offensive Security
-
-* Web Application Penetration Testing
-* Vulnerability Research
-* Exploit Validation
-* Attack Surface Mapping
-* Security Automation
-
-### Development
-
-* Python
-* Automation Frameworks
-* Security Tool Engineering
-* Multi-Agent Architectures
-
-### Research
-
-* AI Security
-* LLM Security Testing
-* Autonomous Pentesting
-* Agentic Security Systems
-
----
-
-## Current Areas of Research
-
-* Autonomous Pentesting Agents
-* AI-Augmented Security Operations
-* Vulnerability Discovery Automation
-* Context-Aware Exploitation
-* Agent-Based Reconnaissance Systems
-* Intelligent Payload Mutation Engines
-
----
-
-## Links
-[![Portfolio](https://img.shields.io/badge/Portfolio-Abinav_Portfolio-b91c1c?style=flat-square&logo=googlechrome&logoColor=white)](https://abinav3ac.github.io/.github/Abinav_Portfolio.html)
-[![GitHub](https://img.shields.io/badge/GitHub-Abinav3ac-b91c1c?style=flat-square&logo=github)](https://github.com/Abinav3ac)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-rithish06abinav-b91c1c?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rithish06abinav/)
-[![TryHackMe](https://img.shields.io/badge/TryHackMe-Alph4rc-b91c1c?style=flat-square&logo=tryhackme&logoColor=white)](https://tryhackme.com/p/Alph4rc)
-[![Project Hellhound](https://img.shields.io/badge/Org-Project--Hellhound-b91c1c?style=flat-square&logo=github)](https://github.com/project-hellhound-org)
-
----
-
-## Philosophy
-
-> The most dangerous vulnerabilities are rarely the ones scanners find.
->
-> They're the ones hidden inside application behavior, business logic, and unexpected trust relationships.
-
-Most security conversations start with:
-
-**"I found something interesting..."**
+</div>
