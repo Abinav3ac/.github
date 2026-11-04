@@ -25,9 +25,15 @@
 
 <br/>
 
-<img width="100%" src="./profile-cyber.gif" alt="Animated cyber operations workspace"/>
+<div align="center">
+  <img
+    width="100%"
+    src="./profile-cyber.gif"
+    alt="Animated cyber operations workspace"
+  />
+</div>
 
-<p>
+<br/>
  
 ---
 
