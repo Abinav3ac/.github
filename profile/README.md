@@ -11,6 +11,9 @@
 <a href="https://www.linkedin.com/in/rithish06abinav/">
 <img src="https://img.shields.io/badge/LinkedIn-Rithish%20Abinav-172554?style=for-the-badge&logo=linkedin&logoColor=60A5FA" alt="LinkedIn"/>
 </a>
+ <a href="https://abinav3ac.github.io">
+  <img src="https://img.shields.io/badge/PORTFOLIO-0B1B3A?style=for-the-badge&logo=githubpages&logoColor=60A5FA&labelColor=050816" alt="Portfolio"/>
+</a>
 <a href="https://tryhackme.com/p/Alph4rc">
 <img src="https://img.shields.io/badge/TryHackMe-Alph4rc-312E81?style=for-the-badge&logo=tryhackme&logoColor=A78BFA" alt="TryHackMe"/>
 </a>
