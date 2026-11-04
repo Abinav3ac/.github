@@ -28,13 +28,13 @@
 <div align="center">
   <img
     width="100%"
-    src="./profile-cyber.gif"
+    src="https://raw.githubusercontent.com/Abinav3ac/.github/main/profile/profile-cyber.gif"
     alt="Animated cyber operations workspace"
   />
 </div>
 
 <br/>
- 
+
 ---
 
 ## `WHOAMI` — About Me
