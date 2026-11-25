@@ -14,7 +14,7 @@
  <a href="https://abinav3ac.github.io">
   <img src="https://img.shields.io/badge/PORTFOLIO-0B1B3A?style=for-the-badge&logo=githubpages&logoColor=60A5FA&labelColor=050816" alt="Portfolio"/>
 </a>
-<a href="https://tryhackme.com/p/Alph4rc">
+<a href="https://tryhackme.com/p/ALPH4X3">
 <img src="https://img.shields.io/badge/TryHackMe-ALPH4X3-312E81?style=for-the-badge&logo=tryhackme&logoColor=A78BFA" alt="TryHackMe"/>
 </a>
 <a href="mailto:rithish81abinav@gmail.com">
