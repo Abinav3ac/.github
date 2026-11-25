@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/badge/PORTFOLIO-0B1B3A?style=for-the-badge&logo=githubpages&logoColor=60A5FA&labelColor=050816" alt="Portfolio"/>
 </a>
 <a href="https://tryhackme.com/p/Alph4rc">
-<img src="https://img.shields.io/badge/TryHackMe-Alph4rc-312E81?style=for-the-badge&logo=tryhackme&logoColor=A78BFA" alt="TryHackMe"/>
+<img src="https://img.shields.io/badge/TryHackMe-ALPH4X3-312E81?style=for-the-badge&logo=tryhackme&logoColor=A78BFA" alt="TryHackMe"/>
 </a>
 <a href="mailto:rithish81abinav@gmail.com">
 <img src="https://img.shields.io/badge/Email-Contact%20Me-4C1D95?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email"/>
@@ -133,7 +133,7 @@ I'm interested in offensive security research, vulnerability discovery, security
 - **Email:** [rithish81abinav@gmail.com](mailto:rithish81abinav@gmail.com)
 - **GitHub:** [github.com/Abinav3ac](https://github.com/Abinav3ac)
 - **LinkedIn:** [linkedin.com/in/rithish06abinav](https://www.linkedin.com/in/rithish06abinav/)
-- **TryHackMe:** [tryhackme.com/p/Alph4rc](https://tryhackme.com/p/Alph4rc)
+- **TryHackMe:** [tryhackme.com/p/Alph4rc](https://tryhackme.com/p/ALPH4X3)
 
 ---
 
